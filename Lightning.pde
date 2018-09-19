@@ -13,7 +13,7 @@ void setup()
 
 void draw()
 {
-  stroke(222,211,0);
+  stroke((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
   while(endX < 301 && endX > 0)
   {
     endX = startX + (int)((Math.random()*18)-9);
